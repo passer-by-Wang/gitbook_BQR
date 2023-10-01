@@ -1,0 +1,937 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>ROS · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="BUS.html" />
+    
+    
+    <link rel="prev" href="RTX.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    BQR
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../Theory/">
+            
+                <a href="../../Theory/">
+            
+                    
+                    理论
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../../Theory/Robotics/robotics.html">
+            
+                <a href="../../Theory/Robotics/robotics.html">
+            
+                    
+                    机器人学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../../Theory/ControlTheory/ControlTheory.html">
+            
+                <a href="../../Theory/ControlTheory/ControlTheory.html">
+            
+                    
+                    控制理论
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../../Theory/quadruped/quadruped.html">
+            
+                <a href="../../Theory/quadruped/quadruped.html">
+            
+                    
+                    四足机器人
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../../Theory/cooperation/cooperation.html">
+            
+                <a href="../../Theory/cooperation/cooperation.html">
+            
+                    
+                    机臂协同
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../../Theory/SLAM/SLAM.html">
+            
+                <a href="../../Theory/SLAM/SLAM.html">
+            
+                    
+                    SLAM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="../../Theory/MachineLearning/MachineLearning.html">
+            
+                <a href="../../Theory/MachineLearning/MachineLearning.html">
+            
+                    
+                    机器学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" data-path="../../Theory/StateEstimation/StateEstimation.html">
+            
+                <a href="../../Theory/StateEstimation/StateEstimation.html">
+            
+                    
+                    状态估计
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.7.1" data-path="../../Theory/StateEstimation/filtering.html">
+            
+                <a href="../../Theory/StateEstimation/filtering.html">
+            
+                    
+                    滤波
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7.2" data-path="../../Theory/StateEstimation/optimization.html">
+            
+                <a href="../../Theory/StateEstimation/optimization.html">
+            
+                    
+                    优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    实践
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../Programming/Programming.html">
+            
+                <a href="../Programming/Programming.html">
+            
+                    
+                    编程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.1" data-path="../Programming/C++.html">
+            
+                <a href="../Programming/C++.html">
+            
+                    
+                    C++
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.2" data-path="../Programming/python.html">
+            
+                <a href="../Programming/python.html">
+            
+                    
+                    python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.3" data-path="../Programming/matlab.html">
+            
+                <a href="../Programming/matlab.html">
+            
+                    
+                    matlab
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../Mechanic/Mechanic.html">
+            
+                <a href="../Mechanic/Mechanic.html">
+            
+                    
+                    机械
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../OS/OS.html">
+            
+                <a href="../OS/OS.html">
+            
+                    
+                    操作系统
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.3.1" data-path="../OS/Linux.html">
+            
+                <a href="../OS/Linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3.2" data-path="../OS/Windows.html">
+            
+                <a href="../OS/Windows.html">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3.3" data-path="../OS/Macbook.html">
+            
+                <a href="../OS/Macbook.html">
+            
+                    
+                    Macbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="Communication.html">
+            
+                <a href="Communication.html">
+            
+                    
+                    通信
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.4.1" data-path="RTX.html">
+            
+                <a href="RTX.html">
+            
+                    
+                    RTX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2.4.2" data-path="ROS.html">
+            
+                <a href="ROS.html">
+            
+                    
+                    ROS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4.3" data-path="BUS.html">
+            
+                <a href="BUS.html">
+            
+                    
+                    BUS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.4.3.1" data-path="BUS/CAN.html">
+            
+                <a href="BUS/CAN.html">
+            
+                    
+                    CAN
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4.3.2" data-path="BUS/EtherCAT.html">
+            
+                <a href="BUS/EtherCAT.html">
+            
+                    
+                    EtherCAT
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../Simulator/Simulator.html">
+            
+                <a href="../Simulator/Simulator.html">
+            
+                    
+                    仿真器
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.5.1" data-path="../Simulator/Vrep.html">
+            
+                <a href="../Simulator/Vrep.html">
+            
+                    
+                    Vrep
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5.2" data-path="../Simulator/Gazebo.html">
+            
+                <a href="../Simulator/Gazebo.html">
+            
+                    
+                    Gazebo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5.3" data-path="../Simulator/webots.html">
+            
+                <a href="../Simulator/webots.html">
+            
+                    
+                    webots
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5.4" data-path="../Simulator/Mujoco.html">
+            
+                <a href="../Simulator/Mujoco.html">
+            
+                    
+                    Mujoco
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../IDE/IDE.html">
+            
+                <a href="../IDE/IDE.html">
+            
+                    
+                    集成开发环境
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.6.1" data-path="../IDE/vscode.html">
+            
+                <a href="../IDE/vscode.html">
+            
+                    
+                    vscode
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6.2" data-path="../IDE/Qt creator.html">
+            
+                <a href="../IDE/Qt creator.html">
+            
+                    
+                    Qt creator
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6.3" data-path="../IDE/Clion.html">
+            
+                <a href="../IDE/Clion.html">
+            
+                    
+                    Clion
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6.4" data-path="../IDE/KDevelop.html">
+            
+                <a href="../IDE/KDevelop.html">
+            
+                    
+                    KDevelop
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../Electronic/Electronic.html">
+            
+                <a href="../Electronic/Electronic.html">
+            
+                    
+                    电力电子
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../VersionControl/VersionControl.html">
+            
+                <a href="../VersionControl/VersionControl.html">
+            
+                    
+                    版本控制
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.8.1" data-path="../VersionControl/GitVersionControl.html">
+            
+                <a href="../VersionControl/GitVersionControl.html">
+            
+                    
+                    git
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="../Building/Building.html">
+            
+                <a href="../Building/Building.html">
+            
+                    
+                    编译
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.9.1" data-path="../Building/Cmake.html">
+            
+                <a href="../Building/Cmake.html">
+            
+                    
+                    Cmake
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9.2" data-path="../Building/catkin_make.html">
+            
+                <a href="../Building/catkin_make.html">
+            
+                    
+                    catkin_make
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9.3" data-path="../Building/catkin.html">
+            
+                <a href="../Building/catkin.html">
+            
+                    
+                    catkin
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="../Tools/Tools.html">
+            
+                <a href="../Tools/Tools.html">
+            
+                    
+                    工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.10.1" data-path="../Tools/Vim.html">
+            
+                <a href="../Tools/Vim.html">
+            
+                    
+                    Vim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10.2" data-path="../Tools/unzip.html">
+            
+                <a href="../Tools/unzip.html">
+            
+                    
+                    解压
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10.3" data-path="../Tools/FilePermission.html">
+            
+                <a href="../Tools/FilePermission.html">
+            
+                    
+                    文件权限
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="../RealTime/RealTime.html">
+            
+                <a href="../RealTime/RealTime.html">
+            
+                    
+                    实时平台
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >ROS</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="ros">ROS</h1>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="RTX.html" class="navigation navigation-prev " aria-label="Previous page: RTX">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="BUS.html" class="navigation navigation-next " aria-label="Next page: BUS">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"ROS","level":"2.2.4.2","depth":3,"next":{"title":"BUS","level":"2.2.4.3","depth":3,"path":"Practice/Communication/BUS.md","ref":"Practice/Communication/BUS.md","articles":[{"title":"CAN","level":"2.2.4.3.1","depth":4,"path":"Practice/Communication/BUS/CAN.md","ref":"Practice/Communication/BUS/CAN.md","articles":[]},{"title":"EtherCAT","level":"2.2.4.3.2","depth":4,"path":"Practice/Communication/BUS/EtherCAT.md","ref":"Practice/Communication/BUS/EtherCAT.md","articles":[]}]},"previous":{"title":"RTX","level":"2.2.4.1","depth":3,"path":"Practice/Communication/RTX.md","ref":"Practice/Communication/RTX.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Practice/Communication/ROS.md","mtime":"2023-10-01T10:42:35.228Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-10-01T10:46:04.791Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
